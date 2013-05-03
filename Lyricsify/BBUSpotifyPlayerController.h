@@ -1,5 +1,5 @@
 //
-//  BBUSpotifyPlayerViewController.h
+//  BBUSpotifyPlayerController.h
 //  Lyricsify
 //
 //  Created by Boris Bügling on 03.05.13.
@@ -11,13 +11,13 @@
 typedef void(^BBULoginBlock)();
 typedef void(^BBUSearchBlock)(NSArray* results, NSError* error);
 
-@interface BBUSpotifyPlayerViewController : UIViewController
+@interface BBUSpotifyPlayerController : NSObject
 
 @property (copy) BBULoginBlock loginBlock;
 
 -(void)presentLoginInViewController:(UIViewController*)parentViewController;
 -(void)searchWithQuery:(NSString*)query completionBlock:(BBUSearchBlock)completionBlock;
 
-+(BBUSpotifyPlayerViewController*)openSpotifyInNavController:(UINavigationController*)nav query:(NSString*)query;
++(BBUSpotifyPlayerController*)openSpotifyInNavController:(UINavigationController*)nav query:(NSString*)query;
 
 @end

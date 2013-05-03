@@ -10,6 +10,7 @@
 
 @protocol BBULyricsSearchDelegate <NSObject>
 
+-(void)didFailToFindTrack;
 -(void)didFindTrack:(NSString*)track byArtist:(NSString*)artist;
 
 @end

@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Boris B√ºgling. All rights reserved.
 //
 
+#import <MediaPlayer/MediaPlayer.h>
+
 #import "BeamMusicPlayerViewController.h"
 #import "BBUSpotifyProvider.h"
 #import "CocoaLibSpotify.h"
@@ -77,6 +79,7 @@
     if (self.tracks.count == 0) {
         return 0.0;
     }
+    
     SPTrack* track = self.tracks[trackNumber];
     return track.duration;
 }
@@ -96,6 +99,14 @@
 
 #pragma mark - BeamMusicPlayer delegate methods
 
+-(void)musicPlayer:(BeamMusicPlayerViewController *)player didChangeVolume:(CGFloat)volume {
+    if (!self.playbackManager) {
+        self.playbackManager = [[SPPlaybackManager alloc] initWithPlaybackSession:[SPSession sharedSession]];
+    }
+    
+    [self.playbackManager setVolume:volume];
+}
+
 -(void)musicPlayerDidStartPlaying:(BeamMusicPlayerViewController *)player {
     if (!self.playbackManager) {
         self.playbackManager = [[SPPlaybackManager alloc] initWithPlaybackSession:[SPSession sharedSession]];
@@ -106,6 +117,18 @@
         if (!error) return;
         NSLog(@"Playback error: %@", error.localizedDescription);
     }];
+    
+    [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo = @{ MPMediaItemPropertyTitle: [track.artists[0] name],
+                                                               MPMediaItemPropertyArtist: track.name
+                                                            };
+}
+
+-(void)musicPlayerDidStopPlaying:(BeamMusicPlayerViewController *)player {
+    if (!self.playbackManager) {
+        self.playbackManager = [[SPPlaybackManager alloc] initWithPlaybackSession:[SPSession sharedSession]];
+    }
+    
+    [self.playbackManager setIsPlaying:NO];
 }
 
 @end
