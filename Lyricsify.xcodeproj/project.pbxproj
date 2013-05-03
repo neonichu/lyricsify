@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		866681E71733BBE6008791C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866681E61733BBE6008791C2 /* UIKit.framework */; };
+		866681E91733BBE6008791C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866681E81733BBE6008791C2 /* Foundation.framework */; };
+		866681EB1733BBE6008791C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866681EA1733BBE6008791C2 /* CoreGraphics.framework */; };
+		866681F11733BBE6008791C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 866681EF1733BBE6008791C2 /* InfoPlist.strings */; };
+		866681F31733BBE6008791C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866681F21733BBE6008791C2 /* main.m */; };
+		866681F71733BBE6008791C2 /* BBUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866681F61733BBE6008791C2 /* BBUAppDelegate.m */; };
+		866681F91733BBE6008791C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 866681F81733BBE6008791C2 /* Default.png */; };
+		866681FB1733BBE6008791C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 866681FA1733BBE6008791C2 /* Default@2x.png */; };
+		866681FD1733BBE6008791C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 866681FC1733BBE6008791C2 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		866681E31733BBE6008791C2 /* Lyricsify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyricsify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		866681E61733BBE6008791C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		866681E81733BBE6008791C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		866681EA1733BBE6008791C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		866681EE1733BBE6008791C2 /* Lyricsify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyricsify-Info.plist"; sourceTree = "<group>"; };
+		866681F01733BBE6008791C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		866681F21733BBE6008791C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		866681F41733BBE6008791C2 /* Lyricsify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyricsify-Prefix.pch"; sourceTree = "<group>"; };
+		866681F51733BBE6008791C2 /* BBUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBUAppDelegate.h; sourceTree = "<group>"; };
+		866681F61733BBE6008791C2 /* BBUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBUAppDelegate.m; sourceTree = "<group>"; };
+		866681F81733BBE6008791C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		866681FA1733BBE6008791C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		866681FC1733BBE6008791C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		866681E01733BBE6008791C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866681E71733BBE6008791C2 /* UIKit.framework in Frameworks */,
+				866681E91733BBE6008791C2 /* Foundation.framework in Frameworks */,
+				866681EB1733BBE6008791C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		866681DA1733BBE5008791C2 = {
+			isa = PBXGroup;
+			children = (
+				866681EC1733BBE6008791C2 /* Lyricsify */,
+				866681E51733BBE6008791C2 /* Frameworks */,
+				866681E41733BBE6008791C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		866681E41733BBE6008791C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866681E31733BBE6008791C2 /* Lyricsify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866681E51733BBE6008791C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866681E61733BBE6008791C2 /* UIKit.framework */,
+				866681E81733BBE6008791C2 /* Foundation.framework */,
+				866681EA1733BBE6008791C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		866681EC1733BBE6008791C2 /* Lyricsify */ = {
+			isa = PBXGroup;
+			children = (
+				866681F51733BBE6008791C2 /* BBUAppDelegate.h */,
+				866681F61733BBE6008791C2 /* BBUAppDelegate.m */,
+				866681ED1733BBE6008791C2 /* Supporting Files */,
+			);
+			path = Lyricsify;
+			sourceTree = "<group>";
+		};
+		866681ED1733BBE6008791C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				866681EE1733BBE6008791C2 /* Lyricsify-Info.plist */,
+				866681EF1733BBE6008791C2 /* InfoPlist.strings */,
+				866681F21733BBE6008791C2 /* main.m */,
+				866681F41733BBE6008791C2 /* Lyricsify-Prefix.pch */,
+				866681F81733BBE6008791C2 /* Default.png */,
+				866681FA1733BBE6008791C2 /* Default@2x.png */,
+				866681FC1733BBE6008791C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		866681E21733BBE6008791C2 /* Lyricsify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866682001733BBE6008791C2 /* Build configuration list for PBXNativeTarget "Lyricsify" */;
+			buildPhases = (
+				866681DF1733BBE6008791C2 /* Sources */,
+				866681E01733BBE6008791C2 /* Frameworks */,
+				866681E11733BBE6008791C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyricsify;
+			productName = Lyricsify;
+			productReference = 866681E31733BBE6008791C2 /* Lyricsify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		866681DB1733BBE5008791C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBU;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Boris Bügling";
+			};
+			buildConfigurationList = 866681DE1733BBE5008791C2 /* Build configuration list for PBXProject "Lyricsify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 866681DA1733BBE5008791C2;
+			productRefGroup = 866681E41733BBE6008791C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866681E21733BBE6008791C2 /* Lyricsify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		866681E11733BBE6008791C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866681F11733BBE6008791C2 /* InfoPlist.strings in Resources */,
+				866681F91733BBE6008791C2 /* Default.png in Resources */,
+				866681FB1733BBE6008791C2 /* Default@2x.png in Resources */,
+				866681FD1733BBE6008791C2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		866681DF1733BBE6008791C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866681F31733BBE6008791C2 /* main.m in Sources */,
+				866681F71733BBE6008791C2 /* BBUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		866681EF1733BBE6008791C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866681F01733BBE6008791C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		866681FE1733BBE6008791C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		866681FF1733BBE6008791C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		866682011733BBE6008791C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyricsify/Lyricsify-Prefix.pch";
+				INFOPLIST_FILE = "Lyricsify/Lyricsify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		866682021733BBE6008791C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyricsify/Lyricsify-Prefix.pch";
+				INFOPLIST_FILE = "Lyricsify/Lyricsify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866681DE1733BBE5008791C2 /* Build configuration list for PBXProject "Lyricsify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866681FE1733BBE6008791C2 /* Debug */,
+				866681FF1733BBE6008791C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866682001733BBE6008791C2 /* Build configuration list for PBXNativeTarget "Lyricsify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866682011733BBE6008791C2 /* Debug */,
+				866682021733BBE6008791C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 866681DB1733BBE5008791C2 /* Project object */;
+}
