@@ -10,28 +10,84 @@
 		866681E71733BBE6008791C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866681E61733BBE6008791C2 /* UIKit.framework */; };
 		866681E91733BBE6008791C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866681E81733BBE6008791C2 /* Foundation.framework */; };
 		866681EB1733BBE6008791C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866681EA1733BBE6008791C2 /* CoreGraphics.framework */; };
-		866681F11733BBE6008791C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 866681EF1733BBE6008791C2 /* InfoPlist.strings */; };
 		866681F31733BBE6008791C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866681F21733BBE6008791C2 /* main.m */; };
 		866681F71733BBE6008791C2 /* BBUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866681F61733BBE6008791C2 /* BBUAppDelegate.m */; };
 		866681F91733BBE6008791C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 866681F81733BBE6008791C2 /* Default.png */; };
 		866681FB1733BBE6008791C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 866681FA1733BBE6008791C2 /* Default@2x.png */; };
 		866681FD1733BBE6008791C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 866681FC1733BBE6008791C2 /* Default-568h@2x.png */; };
+		866682061733BD6D008791C2 /* BBULyricsSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 866682051733BD6D008791C2 /* BBULyricsSearch.m */; };
+		866682091733C43F008791C2 /* BBULyricsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866682081733C43F008791C2 /* BBULyricsSearchViewController.m */; };
+		8666820C1733CEFC008791C2 /* BBUSpotifyPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666820B1733CEFC008791C2 /* BBUSpotifyPlayerViewController.m */; };
+		8666820F1733D0DC008791C2 /* BBUSpotifyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666820E1733D0DC008791C2 /* BBUSpotifyProvider.m */; };
+		8666821F1733D145008791C2 /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 866682131733D145008791C2 /* AutoScrollLabel.m */; };
+		866682201733D145008791C2 /* BeamMPMusicPlayerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 866682151733D145008791C2 /* BeamMPMusicPlayerProvider.m */; };
+		866682211733D145008791C2 /* BeamMusicPlayerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 866682161733D145008791C2 /* BeamMusicPlayerController.bundle */; };
+		866682221733D145008791C2 /* BeamMusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666821A1733D145008791C2 /* BeamMusicPlayerViewController.m */; };
+		866682231733D145008791C2 /* NSDateFormatter+Duration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666821C1733D145008791C2 /* NSDateFormatter+Duration.m */; };
+		866682241733D145008791C2 /* UIImageView+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666821E1733D145008791C2 /* UIImageView+Reflection.m */; };
+		866682261733D22D008791C2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866682251733D22C008791C2 /* MediaPlayer.framework */; };
+		866682281733D237008791C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866682271733D237008791C2 /* QuartzCore.framework */; };
+		869E441E1733D73A004F0A28 /* spotify_appkey.key in Resources */ = {isa = PBXBuildFile; fileRef = 869E441D1733D73A004F0A28 /* spotify_appkey.key */; };
+		869E44201733D9B1004F0A28 /* BeamMusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 869E441F1733D9B1004F0A28 /* BeamMusicPlayerViewController.xib */; };
+		869E44291733ECE3004F0A28 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44211733ECE3004F0A28 /* Icon-72.png */; };
+		869E442A1733ECE3004F0A28 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44221733ECE3004F0A28 /* Icon-72@2x.png */; };
+		869E442B1733ECE3004F0A28 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44231733ECE3004F0A28 /* Icon-Small-50.png */; };
+		869E442C1733ECE3004F0A28 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44241733ECE3004F0A28 /* Icon-Small-50@2x.png */; };
+		869E442D1733ECE3004F0A28 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44251733ECE3004F0A28 /* Icon-Small.png */; };
+		869E442E1733ECE3004F0A28 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44261733ECE3004F0A28 /* Icon-Small@2x.png */; };
+		869E442F1733ECE3004F0A28 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44271733ECE3004F0A28 /* Icon.png */; };
+		869E44301733ECE3004F0A28 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869E44281733ECE3004F0A28 /* Icon@2x.png */; };
+		B9D51B57F142434A84E1EF03 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97466BA716914046A06B4422 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5294CB782351472AAB0AC0F7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		866681E31733BBE6008791C2 /* Lyricsify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyricsify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866681E61733BBE6008791C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		866681E81733BBE6008791C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		866681EA1733BBE6008791C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		866681EE1733BBE6008791C2 /* Lyricsify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyricsify-Info.plist"; sourceTree = "<group>"; };
-		866681F01733BBE6008791C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		866681F21733BBE6008791C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		866681F41733BBE6008791C2 /* Lyricsify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyricsify-Prefix.pch"; sourceTree = "<group>"; };
 		866681F51733BBE6008791C2 /* BBUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBUAppDelegate.h; sourceTree = "<group>"; };
 		866681F61733BBE6008791C2 /* BBUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBUAppDelegate.m; sourceTree = "<group>"; };
-		866681F81733BBE6008791C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		866681FA1733BBE6008791C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		866681FC1733BBE6008791C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		866681F81733BBE6008791C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Lyricsify/Default.png; sourceTree = "<group>"; };
+		866681FA1733BBE6008791C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Lyricsify/Default@2x.png"; sourceTree = "<group>"; };
+		866681FC1733BBE6008791C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Lyricsify/Default-568h@2x.png"; sourceTree = "<group>"; };
+		866682041733BD6D008791C2 /* BBULyricsSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBULyricsSearch.h; sourceTree = "<group>"; };
+		866682051733BD6D008791C2 /* BBULyricsSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBULyricsSearch.m; sourceTree = "<group>"; };
+		866682071733C43F008791C2 /* BBULyricsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBULyricsSearchViewController.h; sourceTree = "<group>"; };
+		866682081733C43F008791C2 /* BBULyricsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBULyricsSearchViewController.m; sourceTree = "<group>"; };
+		8666820A1733CEFC008791C2 /* BBUSpotifyPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUSpotifyPlayerViewController.h; sourceTree = "<group>"; };
+		8666820B1733CEFC008791C2 /* BBUSpotifyPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUSpotifyPlayerViewController.m; sourceTree = "<group>"; };
+		8666820D1733D0DC008791C2 /* BBUSpotifyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUSpotifyProvider.h; sourceTree = "<group>"; };
+		8666820E1733D0DC008791C2 /* BBUSpotifyProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUSpotifyProvider.m; sourceTree = "<group>"; };
+		866682121733D145008791C2 /* AutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoScrollLabel.h; path = vendor/Source/AutoScrollLabel.h; sourceTree = "<group>"; };
+		866682131733D145008791C2 /* AutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoScrollLabel.m; path = vendor/Source/AutoScrollLabel.m; sourceTree = "<group>"; };
+		866682141733D145008791C2 /* BeamMPMusicPlayerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeamMPMusicPlayerProvider.h; path = vendor/Source/BeamMPMusicPlayerProvider.h; sourceTree = "<group>"; };
+		866682151733D145008791C2 /* BeamMPMusicPlayerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeamMPMusicPlayerProvider.m; path = vendor/Source/BeamMPMusicPlayerProvider.m; sourceTree = "<group>"; };
+		866682161733D145008791C2 /* BeamMusicPlayerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BeamMusicPlayerController.bundle; path = vendor/Source/BeamMusicPlayerController.bundle; sourceTree = "<group>"; };
+		866682171733D145008791C2 /* BeamMusicPlayerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerDataSource.h; path = vendor/Source/BeamMusicPlayerDataSource.h; sourceTree = "<group>"; };
+		866682181733D145008791C2 /* BeamMusicPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerDelegate.h; path = vendor/Source/BeamMusicPlayerDelegate.h; sourceTree = "<group>"; };
+		866682191733D145008791C2 /* BeamMusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerViewController.h; path = vendor/Source/BeamMusicPlayerViewController.h; sourceTree = "<group>"; };
+		8666821A1733D145008791C2 /* BeamMusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeamMusicPlayerViewController.m; path = vendor/Source/BeamMusicPlayerViewController.m; sourceTree = "<group>"; };
+		8666821B1733D145008791C2 /* NSDateFormatter+Duration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Duration.h"; path = "vendor/Source/NSDateFormatter+Duration.h"; sourceTree = "<group>"; };
+		8666821C1733D145008791C2 /* NSDateFormatter+Duration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Duration.m"; path = "vendor/Source/NSDateFormatter+Duration.m"; sourceTree = "<group>"; };
+		8666821D1733D145008791C2 /* UIImageView+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Reflection.h"; path = "vendor/Source/UIImageView+Reflection.h"; sourceTree = "<group>"; };
+		8666821E1733D145008791C2 /* UIImageView+Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Reflection.m"; path = "vendor/Source/UIImageView+Reflection.m"; sourceTree = "<group>"; };
+		866682251733D22C008791C2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		866682271733D237008791C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		869E441D1733D73A004F0A28 /* spotify_appkey.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotify_appkey.key; sourceTree = "<group>"; };
+		869E441F1733D9B1004F0A28 /* BeamMusicPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeamMusicPlayerViewController.xib; sourceTree = "<group>"; };
+		869E44211733ECE3004F0A28 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		869E44221733ECE3004F0A28 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		869E44231733ECE3004F0A28 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		869E44241733ECE3004F0A28 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		869E44251733ECE3004F0A28 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		869E44261733ECE3004F0A28 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		869E44271733ECE3004F0A28 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		869E44281733ECE3004F0A28 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		97466BA716914046A06B4422 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +95,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866682281733D237008791C2 /* QuartzCore.framework in Frameworks */,
+				866682261733D22D008791C2 /* MediaPlayer.framework in Frameworks */,
 				866681E71733BBE6008791C2 /* UIKit.framework in Frameworks */,
 				866681E91733BBE6008791C2 /* Foundation.framework in Frameworks */,
 				866681EB1733BBE6008791C2 /* CoreGraphics.framework in Frameworks */,
+				B9D51B57F142434A84E1EF03 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +113,10 @@
 				866681EC1733BBE6008791C2 /* Lyricsify */,
 				866681E51733BBE6008791C2 /* Frameworks */,
 				866681E41733BBE6008791C2 /* Products */,
+				866682031733BC01008791C2 /* Resources */,
+				866681ED1733BBE6008791C2 /* Supporting Files */,
+				866682101733D11C008791C2 /* Third Party */,
+				5294CB782351472AAB0AC0F7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +131,12 @@
 		866681E51733BBE6008791C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				866681E61733BBE6008791C2 /* UIKit.framework */,
-				866681E81733BBE6008791C2 /* Foundation.framework */,
 				866681EA1733BBE6008791C2 /* CoreGraphics.framework */,
+				866681E81733BBE6008791C2 /* Foundation.framework */,
+				866682251733D22C008791C2 /* MediaPlayer.framework */,
+				866682271733D237008791C2 /* QuartzCore.framework */,
+				866681E61733BBE6008791C2 /* UIKit.framework */,
+				97466BA716914046A06B4422 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,7 +146,14 @@
 			children = (
 				866681F51733BBE6008791C2 /* BBUAppDelegate.h */,
 				866681F61733BBE6008791C2 /* BBUAppDelegate.m */,
-				866681ED1733BBE6008791C2 /* Supporting Files */,
+				866682041733BD6D008791C2 /* BBULyricsSearch.h */,
+				866682051733BD6D008791C2 /* BBULyricsSearch.m */,
+				866682071733C43F008791C2 /* BBULyricsSearchViewController.h */,
+				866682081733C43F008791C2 /* BBULyricsSearchViewController.m */,
+				8666820D1733D0DC008791C2 /* BBUSpotifyProvider.h */,
+				8666820E1733D0DC008791C2 /* BBUSpotifyProvider.m */,
+				8666820A1733CEFC008791C2 /* BBUSpotifyPlayerViewController.h */,
+				8666820B1733CEFC008791C2 /* BBUSpotifyPlayerViewController.m */,
 			);
 			path = Lyricsify;
 			sourceTree = "<group>";
@@ -89,14 +162,59 @@
 			isa = PBXGroup;
 			children = (
 				866681EE1733BBE6008791C2 /* Lyricsify-Info.plist */,
-				866681EF1733BBE6008791C2 /* InfoPlist.strings */,
-				866681F21733BBE6008791C2 /* main.m */,
 				866681F41733BBE6008791C2 /* Lyricsify-Prefix.pch */,
+				866681F21733BBE6008791C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = Lyricsify;
+			sourceTree = "<group>";
+		};
+		866682031733BC01008791C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				869E44211733ECE3004F0A28 /* Icon-72.png */,
+				869E44221733ECE3004F0A28 /* Icon-72@2x.png */,
+				869E44231733ECE3004F0A28 /* Icon-Small-50.png */,
+				869E44241733ECE3004F0A28 /* Icon-Small-50@2x.png */,
+				869E44251733ECE3004F0A28 /* Icon-Small.png */,
+				869E44261733ECE3004F0A28 /* Icon-Small@2x.png */,
+				869E44271733ECE3004F0A28 /* Icon.png */,
+				869E44281733ECE3004F0A28 /* Icon@2x.png */,
 				866681F81733BBE6008791C2 /* Default.png */,
 				866681FA1733BBE6008791C2 /* Default@2x.png */,
 				866681FC1733BBE6008791C2 /* Default-568h@2x.png */,
+				869E441D1733D73A004F0A28 /* spotify_appkey.key */,
 			);
-			name = "Supporting Files";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		866682101733D11C008791C2 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				866682111733D127008791C2 /* BeamMusicPlayerViewController */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		866682111733D127008791C2 /* BeamMusicPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				866682121733D145008791C2 /* AutoScrollLabel.h */,
+				866682131733D145008791C2 /* AutoScrollLabel.m */,
+				866682141733D145008791C2 /* BeamMPMusicPlayerProvider.h */,
+				866682151733D145008791C2 /* BeamMPMusicPlayerProvider.m */,
+				866682161733D145008791C2 /* BeamMusicPlayerController.bundle */,
+				866682171733D145008791C2 /* BeamMusicPlayerDataSource.h */,
+				866682181733D145008791C2 /* BeamMusicPlayerDelegate.h */,
+				866682191733D145008791C2 /* BeamMusicPlayerViewController.h */,
+				8666821A1733D145008791C2 /* BeamMusicPlayerViewController.m */,
+				869E441F1733D9B1004F0A28 /* BeamMusicPlayerViewController.xib */,
+				8666821B1733D145008791C2 /* NSDateFormatter+Duration.h */,
+				8666821C1733D145008791C2 /* NSDateFormatter+Duration.m */,
+				8666821D1733D145008791C2 /* UIImageView+Reflection.h */,
+				8666821E1733D145008791C2 /* UIImageView+Reflection.m */,
+			);
+			name = BeamMusicPlayerViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +227,7 @@
 				866681DF1733BBE6008791C2 /* Sources */,
 				866681E01733BBE6008791C2 /* Frameworks */,
 				866681E11733BBE6008791C2 /* Resources */,
+				7D12D2E38FD64EE1A3A7973A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,7 +246,7 @@
 			attributes = {
 				CLASSPREFIX = BBU;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Boris Bügling";
+				ORGANIZATIONNAME = "Boris B√ºgling";
 			};
 			buildConfigurationList = 866681DE1733BBE5008791C2 /* Build configuration list for PBXProject "Lyricsify" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -151,14 +270,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866681F11733BBE6008791C2 /* InfoPlist.strings in Resources */,
 				866681F91733BBE6008791C2 /* Default.png in Resources */,
 				866681FB1733BBE6008791C2 /* Default@2x.png in Resources */,
 				866681FD1733BBE6008791C2 /* Default-568h@2x.png in Resources */,
+				866682211733D145008791C2 /* BeamMusicPlayerController.bundle in Resources */,
+				869E441E1733D73A004F0A28 /* spotify_appkey.key in Resources */,
+				869E44201733D9B1004F0A28 /* BeamMusicPlayerViewController.xib in Resources */,
+				869E44291733ECE3004F0A28 /* Icon-72.png in Resources */,
+				869E442A1733ECE3004F0A28 /* Icon-72@2x.png in Resources */,
+				869E442B1733ECE3004F0A28 /* Icon-Small-50.png in Resources */,
+				869E442C1733ECE3004F0A28 /* Icon-Small-50@2x.png in Resources */,
+				869E442D1733ECE3004F0A28 /* Icon-Small.png in Resources */,
+				869E442E1733ECE3004F0A28 /* Icon-Small@2x.png in Resources */,
+				869E442F1733ECE3004F0A28 /* Icon.png in Resources */,
+				869E44301733ECE3004F0A28 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D12D2E38FD64EE1A3A7973A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		866681DF1733BBE6008791C2 /* Sources */ = {
@@ -167,21 +313,19 @@
 			files = (
 				866681F31733BBE6008791C2 /* main.m in Sources */,
 				866681F71733BBE6008791C2 /* BBUAppDelegate.m in Sources */,
+				866682061733BD6D008791C2 /* BBULyricsSearch.m in Sources */,
+				866682091733C43F008791C2 /* BBULyricsSearchViewController.m in Sources */,
+				8666820C1733CEFC008791C2 /* BBUSpotifyPlayerViewController.m in Sources */,
+				8666820F1733D0DC008791C2 /* BBUSpotifyProvider.m in Sources */,
+				8666821F1733D145008791C2 /* AutoScrollLabel.m in Sources */,
+				866682201733D145008791C2 /* BeamMPMusicPlayerProvider.m in Sources */,
+				866682221733D145008791C2 /* BeamMusicPlayerViewController.m in Sources */,
+				866682231733D145008791C2 /* NSDateFormatter+Duration.m in Sources */,
+				866682241733D145008791C2 /* UIImageView+Reflection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		866681EF1733BBE6008791C2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				866681F01733BBE6008791C2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		866681FE1733BBE6008791C2 /* Debug */ = {
@@ -209,6 +353,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/CocoaLibSpotify/libspotify-12.1.51-iOS-universal/libspotify.framework/Versions/12.1.51/Headers/";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -233,6 +378,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/CocoaLibSpotify/libspotify-12.1.51-iOS-universal/libspotify.framework/Versions/12.1.51/Headers/";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -242,9 +388,14 @@
 		};
 		866682011733BBE6008791C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5294CB782351472AAB0AC0F7 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lyricsify/Lyricsify-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(SRCROOT)/Pods/CocoaLibSpotify/libspotify-12.1.51-iOS-universal/libspotify.framework/Versions/12.1.51/Headers/",
+				);
 				INFOPLIST_FILE = "Lyricsify/Lyricsify-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -253,9 +404,14 @@
 		};
 		866682021733BBE6008791C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5294CB782351472AAB0AC0F7 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lyricsify/Lyricsify-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(SRCROOT)/Pods/CocoaLibSpotify/libspotify-12.1.51-iOS-universal/libspotify.framework/Versions/12.1.51/Headers/",
+				);
 				INFOPLIST_FILE = "Lyricsify/Lyricsify-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -281,6 +437,7 @@
 				866682021733BBE6008791C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
